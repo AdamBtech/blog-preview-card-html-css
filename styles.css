@@ -1,0 +1,150 @@
+
+:root{
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+body{
+    font-size: 16px;
+    background-color: var(--yellow);
+    font-weight: 600;
+    font-family: "Figtree";
+    font-weight: 600;
+    
+}
+
+.container{
+    padding: 3%;
+    display: flex;
+    margin: 40% auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 400px;
+    height: 20%;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 7px 7px 0px;
+}
+
+.container:hover{
+    border: 5px solid black;
+    box-shadow: 7px 7px 0px;
+}
+
+h1{
+ font-weight: 800;
+ margin: -15px 20px 5px 0;
+ font-size: 30px;
+}
+
+h1:hover{
+color: var(--yellow);
+text-shadow: 0px 0px 3px black;
+}
+.learning{
+background-color: var(--yellow);
+padding: 5px 15px 5px 15px;
+border-radius: 3px;
+font-weight: 900;
+font-size: 15px;
+margin: 25px 0 -15px 0;
+}
+
+.learning:hover{
+    background-color: var(--white);
+    border: 2px solid orangered;
+    
+}
+
+.publishDate{
+    margin: 0;
+
+}
+
+.mainText{
+    font-weight: 300;
+    color: var(--grey);
+    margin: 5px 5px 20px 0;
+    font-size: 20px;
+    margin: 
+
+}
+
+img{
+    width: 100%;
+}
+
+.icon{
+    border-radius: 10px;;
+}
+
+.icon:hover{
+    border: 5px solid orangered;
+}
+
+.author{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.avatar{
+    width: 30%;
+    margin: 0 10px 0 0;
+    }
+
+.avatar:hover{
+    border: 2px solid var(--yellow);
+    border-radius: 30px;
+}
+
+.authorName{
+    font-weight: 900;
+}
+
+.authorName:hover{
+    font-weight: 900;
+    color: var(--yellow);
+    text-shadow: 0px 0px 3px black;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+    /* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Yellow: hsl(47, 88%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 50%)
+- Black: hsl(0, 0%, 7%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 600, 800 */
