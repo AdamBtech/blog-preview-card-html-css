@@ -116,6 +116,12 @@ img{
     .attribution a { color: hsl(228, 45%, 44%); }
 
 
+@media all and (max-width: 600px){
+    .container{height: 60%;
+    width: 60%;
+}
+    
+}
 
     /* # Front-end Style Guide
 
