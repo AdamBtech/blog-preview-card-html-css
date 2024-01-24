@@ -94,13 +94,13 @@ img{
 }
 
 .avatar{
-    width: 30%;
+    width: 15%;
     margin: 0 10px 0 0;
     }
 
 .avatar:hover{
     border: 2px solid var(--yellow);
-    border-radius: 30px;
+    border-radius: 50px;
 }
 
 .authorName{
